@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+ --primary-color: #4891ff;
+ --light-color: #f4f4f6;
+ --dark-color: #111;
+}
+
+.body {
+ font-family: karla, montserrat;
+ font-size: 16px;
+ line-height: 1.5;
+ background: #fff;
+}
+.navbar .container .logo a {
+    text-decoration: none;
+    font-size: 40px;
+
+}
+
+.a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul{
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+.navbar {
+  background: #fff; 
+  padding: 20px; 
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar .main-menu ul {
+    display: flex;
+    
+}
+.navbar ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #111;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.5;
+
+}
+.navbar ul li a:hover {
+    color: var(--primary-color);
+
+}
+.navbar ul li:last-child a {
+   margin-left: 10px;
+}
+
+/* Hero Section */
+
+.hero {
+    margin-bottom: 50px;
+
+}
+.Hero .container {
+    background: url(blog-hero-white-background.png) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+.Hero-h1 {
+    margin-bottom: 10px;
+
+}
+.Hero .Hero-box {
+    width: 70%;
+    margin-bottom: 20px;
+
+}
+.Hero .Hero-text {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+/*AboutUs section */ 
+
+.aboutUs {
+    padding: 40px 0;
+}
+
+.aboutUs .AboutUs-heading {
+    width: 700px;
+    margin-bottom: 40px;
+}
+.service-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.service-heading-text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+
+/* Our Work  */
+
+
+.Our-Work-heading {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Our-Work-subheading {
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.Our-Work-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+
+/* ContactUs */
+
+
+.contactUs-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* Utility Classes */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-small {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--light-color);
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5;
+}
+.btn:hover {
+    opacity: 0.8;
+    background-color: #333;
+}
+.btn-primary {
+    background: var(--primary-color);
+    color: #111;
+
+}
+.btn-dark {
+    background: var(--dark-color);
+    color: #fff;
+}
+.btn-block {
+    display: block;
+    width: 100%;   
+}
+.Hero-buttons .btn2:hover {
+    color: #fff;
+}
+
+/* Text Classes */
+.text-xxl {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+
+}
+.text-xl {
+    font-size: 2.1rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+
+}
+.text-lg {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+
+}
+.text-mid {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 20px;
+
+}
+.text-sm {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    font-weight: normal;
+    margin: 10px 0 5px;
+
+}
+.text-center {
+    text-align: center;
+}
+
+/* Background */
+
+.bg-primary {
+    background: var(--primary-color);
+    color: #fff;
+}
+.bg-light {
+    background: var(--light-color);
+    color: rgb(219, 68, 219);
+}
+.bg-dark {
+    background: var(--dark-color);
+    color: #333
+}
+.bg-black {
+    background: var(--black-color);
+    color: #000
+}
+
+/* Cards */
+
+.card {
+    background: var(--primary-color);
+    color: #000;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.card-Our-Work {
+    color: #000;
+    border-radius: 20px;
+    padding: 20px;
+}
