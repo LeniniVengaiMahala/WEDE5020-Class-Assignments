@@ -33,7 +33,23 @@
                  <li><a href="News.html">News</a></li>
                  <li><button class="btn"><a href="Bookings.html">Book Now</a></button></li>
                </ul>
-             </div> 
+             </div>
+                <button id="hamburger-button" class="hamburger-button">
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                   
+                 </button>
+                 <div class="mobile-menu">
+                    <ul class="nav-links">
+                 <li><a href="#Homepage">Home</a></li>
+                 <li><a href="AboutUs.html">About Us</a></li>
+                 <li><a href="Services.html">Services</a></li>
+                 <li><a href="ContactUs.html">Contact</a></li>
+                 <li><a href="News.html">News</a></li>
+                 <li><button class="btn"><a href="Bookings.html">Book Now</a></button></li>
+               </ul>
+                 </div>
             </div>
          </nav>
         
@@ -52,7 +68,7 @@
         </div>
      </section>  
     <!-- Intro / About Us -->
-    <section class="aboutUs">
+    <section class="aboutUs bg-light">
         <div class="container">
             
                <h3 class="AboutUs-heading text xl">About PitchPerfectly</h3>
@@ -94,7 +110,7 @@
 
     <!--Our Work-->
 
-    <Section class="Our-Work">
+    <Section class="Our-Work bg-light">
         <div class="container-small">
             <h2 class="Our-Work-heading text-center">Our Work</h2>
             <p class="Our-Work-subheading text-center">“Flexible, easy-to-use solutions built for every business — from local shops to global enterprises.”</p>
@@ -120,32 +136,63 @@
 
     </Section>
     <!-- Contact Us -->
-    <section class="contactUs">
-        <div class="container-small">
+ <section class="contactUs">
+    <div class="container">
             <h2 class="contactUs-heading text-mid text-center">Ready to take your email marketing to the next level? Contact us today for a <b>free consultation!</b></h2>
             <p class="contactUs-text text-center">Get in touch</p>
-        <form action="#" method="post">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br><br>
-            <input type="submit" value="Submit">
-        </form>
-        <ul><a href="Bookings.html">Make a booking Now</a></ul>
-    </section>
+         <div class="contact-form">
+             <form action="#" method="post">
+                 <label for="name">Name:</label><br>
+                 <input type="text" id="name" name="name" class="text-box" placeholder="Your Name" required><br><br>
+                 <label for="email">Email:</label><br>
+                 <input type="email" id="email" name="email" class="text-box" placeholder="Your Email" required><br><br>
+                 <label for="message">Message:</label><br>
+                 <textarea id="message" name="message" rows="6" class="textarea" placeholder="Your Message" required></textarea><br><br>
+                 <input type="submit" value="Submit" class="btn btn-primary">
+             </form>
+         </div>
+    </div>
+ </section>
     <!-- News / Updates -->
-    <section id="News.html">
-        <h2><a href="News.html">Latest News</a></h2>
-        <article>
-            <h3>New Service Launch: Advanced Segmentation</h3>
-            <p>We're excited to announce our new advanced segmentation service, allowing you to target your audience more precisely than ever before. Contact us to learn how this can benefit your campaigns!</p>
-        </article>
-        <article>
-            <h3>Case Study: Boosting Open Rates by 30%</h3>
-            <p>Discover how we helped a local business increase their email open rates by 30% through strategic design and targeted content. Read the full case study to learn more about our approach and the results we achieved.</p>
-        </article>
+    <section class="News bg-light">
+        <Div class="container-small">
+            <h2 class="News-heading text-xl text-center">Latest News</h2>
+           <div class="News-content">
+              <div class="News-article">
+                <div class="News-article-header">
+                 <h3 class="News-article-heading">New Service Launch: Advanced Segmentation</h3>
+                </div>
+                <div class="News-article-body">
+                    <p>We're excited to announce our new advanced segmentation service, allowing you to target your audience more precisely than ever before. Contact us to learn how this can benefit your campaigns!</p>
+                </div>
+              </div>
+
+              <div class="News-article">
+                  <div class="News-article-header">
+                     <h3 class="News-article-heading">Case Study: Boosting Open Rates by 30%</h3>
+                  </div>
+                  <div class="News-article-body">
+                    <p>Discover how we helped a local business increase their email open rates by 30% through strategic design and targeted content. Read the full case study to learn more about our approach and the results we achieved.</p>
+                  </div>
+              </div>
+               <div class="News-article">
+                <div class="News-article-header">
+                 <h3 class="News-article-heading">Hyper-Personalization</h3>
+                </div>
+                <div class="News-article-body">
+                    <p>Did you know that hyper-personalized emails deliver 6x higher transaction rates? Learn how to leverage hyper-personalization in your email campaigns for better results.</p>
+                </div>
+              </div>
+               <div class="News-article">
+                <div class="News-article-header">
+                 <h3 class="News-article-heading">Mobile Optimization</h3>
+                </div>
+                <div class="News-article-body">
+                    <p>With over 50% of emails being opened on mobile devices, optimizing your emails for mobile is crucial. Discover best practices for mobile email design to enhance user experience and engagement.</p>
+                </div>
+              </div>
+            </div>
+        </Div>
     </section>
 
     <footer>
