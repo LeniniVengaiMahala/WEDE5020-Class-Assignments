@@ -205,6 +205,41 @@ img {
     width: 95%;
 }
 
+/* Book now */
+
+.book-now-heading {
+    display: flex;
+    justify-content: center;
+}
+.Booking-calender{
+     max-width: 700px;
+    margin-right: 50px;
+    justify-content: center;
+
+}
+.container .Booking-calender .text-box {
+   background: #000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.dropdown-list {
+    background: #000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
 
 /* Footer */
 
@@ -212,6 +247,7 @@ img {
     margin-top: 100px;
 
 }
+
 
 /* Utility Classes */
 
@@ -225,6 +261,15 @@ img {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.booking-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: lightgray;
+  border: #333;
+  border-radius: 30px;
+
 }
 
 /* Buttons */

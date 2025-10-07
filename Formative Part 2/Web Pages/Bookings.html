@@ -26,28 +26,37 @@
          </nav>
     </header>
     <main>
-        <section>
-            <h2>Book a Consultation Session</h2>
-            <calendar>
-                <label for="date">Select a Date:</label><br>
-                <input type="date" id="date" name="date" required><br><br>
-                <label for="time">Select a Time:</label><br>
-                <input type="time" id="time" name="time" required><br><br>
-            </calendar>
-            <form action="#" method="post">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-                <label for="service">Service Interested In:</label><br>
-                <select id="service" name="service" required>
+        <section class="booking-section">
+            <h2 class="book-now-heading text-xl">Book a Consultation Session</h2>
+            <div class="container">
+                <div class="Booking-calender">
+                  <calendar>
+                    <label for="date">Select a Date:</label><br>
+                    <input type="date" id="date" name="date" class="text-box" required><br><br>
+                    <label for="time">Select Time - 8 a.m - 5 p.m: <p class="m:"></p></label><br>
+                    <input type="time" id="time" name="time" class="text-box"><br><br>
+                  </calendar>
+                 </div>
+             <div class="contact-form">
+                <form action="#" method="post">
+                     <label for="name">Name:</label><br>
+                     <input type="text" id="name" name="name" class="text-box" placeholder="Your Name" required><br><br>
+                     <label for="email">Email:</label><br>
+                     <input type="email" id="email" name="email" class="text-box" placeholder="Email" required><br><br>
+             
+                     <label for="service">Service Interested In:</label><br>
+                  <select id="service" name="service" class="dropdown-list" placeholder="--select--" required>
+                    <option value="--Select--">--Select--</option>
                     <option value="newsletterDesign">Newsletter Design</option>
                     <option value="automationSetup">Automation Setup</option>
                     <option value="audienceSegmentation">Audience Segmentation</option>
                     <option value="performanceAnalytics">Performance Analytics</option>
                     <option value="OngoingSupport">Ongoing Support</option>
-                </select><br><br>
-                <input type="submit" value="Book Now">
+                  </select><br><br>
+                </form>
+             </div>   
+                <input type="submit" value="Book Now" class="btn btn-primary">
+            </div>
         </section>
     </main>
     <footer>
