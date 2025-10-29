@@ -1,0 +1,85 @@
+:root {
+    --background-color: #0f1724;
+    --card: #1b469c;
+    --text-color: #fff;
+    --border-radius: 30px;
+    --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+ @media (max-width:720px){.grid{grid-template-columns:1fr}}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+.div-wrap {
+    justify-content: center;
+    align-items: center;
+}
+.div-wrap-heading {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.6rem;
+}
+.div-wrap-text {
+    text-align: center;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.datetime-display {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: var(--card);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 300px;
+}
+.controls {
+    margin-top: 10px;
+    gap: 10px;
+}
+.ring {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+.ghost {
+    background-color: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 5px;
+}
+.primary {
+    background-color: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 5px;
+}
+.primary:hover, .ghost:hover {
+    background-color: var(--text-color);
+    color: var(--card);
+}
