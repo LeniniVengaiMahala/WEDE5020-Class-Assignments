@@ -5,7 +5,7 @@ const setAlarmBtn = document.querySelector("button")
 
 let alarmTime;
 let isAlarmSet;
-let ringtone = new Audio("ringtone.mp3");
+let ringtone = new Audio("./christian Dior Denim Flow.mp3");
 
 
 for(let i = 12; i > 0; i--){
