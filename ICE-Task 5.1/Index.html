@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock | HTML CSS JS</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+    <div class="clock">
+        <h1 id="time">00:00:00 AM</h1>
+       
+     <div class="alarm-setting">  
+        <div class="column">
+            <select id="hours">
+                <option value="Hour" selected disabled hidden>Hour</option>
+            </select>
+        </div>
+
+        <div class="column">
+            <select id="minutes">
+                <option value="Minute" selected disabled hidden>Minute</option>
+            </select>
+        </div>
+
+        <div class="column">
+            <select id="ampm">
+                <option value="AM/PM" selected disabled hidden>AM</option>
+               
+            </select>
+        </div>
+     </div>
+        <div class="alarm-button">
+            <button id="set-alarm">Set Alarm</button>
+        
+        </div>
+        <audio id="alarm-audio" src="Christian Dior Denim Flow.mp3" preload="auto"></audio>
+    </div>
+
+
+    <script src="jscript.js"></script>
+</body>
+</html>

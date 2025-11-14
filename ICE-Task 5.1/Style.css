@@ -1,0 +1,84 @@
+:root {
+    --background-color: #0f1724;
+    --card: #1b469c;
+    --text-color: #fff;
+    --border-radius: 30px;
+    --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+ @media (max-width:340px){.grid{grid-template-columns:1fr}
+.clock{transform: scale(0.8);}}
+
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+.clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px 30px 38px;
+    background: blueviolet;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.alarm-setting {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.alarm-setting select {
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 0 10px;
+    height: 50px;
+}
+#alarm-time {
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+.alarm-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+#set-alarm{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#set-alarm {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#set-alarm:hover {
+    background-color: #45a040;
+}
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
